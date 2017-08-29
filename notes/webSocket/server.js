@@ -7,7 +7,7 @@
 var WebSocket = require('ws');
 var server = new WebSocket.Server({port: 9000});
 
-//todo...
+//
 
 server.on('connection', function (client) {
     // body...
